@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1523862008 source:f:\fci\3.2\computer graphics 1\20150273\menu_resource.rc
+	"menu_header.h"
+
+1523861697 f:\fci\3.2\computer graphics 1\20150273\menu_header.h
+
+1523861979 source:f:\fci\3.2\computer graphics 1\20150273\main.cpp
+	<tchar.h>
+	<stdlib.h>
+	<windows.h>
+	<cmath>
+	<stack>
+	<iostream>
+	"menu_header.h"
+
+1525680706 source:f:\fci\3.2\computer graphics 1\assignment\20150273\menu_resource.rc
+	"menu_header.h"
+
+1525680698 f:\fci\3.2\computer graphics 1\assignment\20150273\menu_header.h
+
+1525683463 source:f:\fci\3.2\computer graphics 1\assignment\20150273\main.cpp
+	<tchar.h>
+	<fstream>
+	<stdlib.h>
+	<windows.h>
+	<cmath>
+	<stack>
+	<vector>
+	<iostream>
+	"menu_header.h"
+
