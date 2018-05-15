@@ -1,0 +1,50 @@
+
+#include "menu_header.h"
+
+MY_MENU_ID MENU
+
+	BEGIN
+	POPUP "&File"
+	BEGIN
+        MENUITEM "&Save", Save_ID
+        MENUITEM "&Load", Load_ID
+		MENUITEM "&Close", MY_FILE_EXIT_ID
+	END
+
+	POPUP "&Line"
+	BEGIN
+		MENUITEM "&LineCartesian", MY_LINE_CARTESIAN_ID
+		MENUITEM "&LineDDA", MY_LINE_DDA_ID
+		MENUITEM "&LineMidPoint", MY_LINE_MIDPOINT_ID
+	END
+	POPUP "&Curves"
+    BEGIN
+		POPUP "&Bezeir"
+        BEGIN
+            MENUITEM "&Parabola", Parabola_ID
+            MENUITEM "&Cubic", Cubic_ID
+        END
+        MENUITEM "&Hermite", Hermite_ID
+	END
+    POPUP "&Filling"
+    BEGIN
+		MENUITEM "&FlatFilling", FILL_FLOOD_ID
+	END
+	POPUP "&Circle"
+	BEGIN
+        MENUITEM "&CircleCartesian", MY_CIRCLE_CARTESIAN_ID
+        MENUITEM "&CirclePolar",    MY_CIRCLE_POLAR_ID
+		MENUITEM "&CircleMidPoint", MY_CIRCLE_MIDPOINT_ID
+	END
+
+    POPUP "&Polygon"
+    BEGIN
+		MENUITEM "&DrawPolygon", POLYGON_ID
+		//MENUITEM "&Polygon", POLYGON2_ID
+	END
+    POPUP "&Clipping"
+	BEGIN
+		MENUITEM "&CohenSutherland", COHEN_ID
+		MENUITEM "&PolygonClipping", PolygonClipping_ID
+	END
+END
